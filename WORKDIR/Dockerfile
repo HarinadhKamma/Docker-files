@@ -1,6 +1,6 @@
 FROM almalinux
  RUN cd /tmp
-# RUN pwd
-WORKDIR pwd
+ WORKDIR tmp
+ RUN pwd
 
 CMD [ "sleep","1000" ]
