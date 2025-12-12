@@ -2,4 +2,4 @@ FROM almalinux
 ENV course="devops" \
     trainer="siva" \
     project="roboshop"
-CMD [ "sleep","100" ]
+CMD [ "sleep","1000" ]
